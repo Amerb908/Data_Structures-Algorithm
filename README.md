@@ -32,7 +32,7 @@ This is a project where we would have to take 20 different texts of different CP
 
 ## Dependencies
 
-- Python 3.11
+- Python 3.9
 
 ## File Structure
 
