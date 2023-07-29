@@ -1,0 +1,22 @@
+Name                           Price  Max Clock    TDP    Brand
+==================================================================
+Intel Xeon Platinum 8362       5828   3.6          265   Intel 
+Intel Xeon Platinum 8358       4227   3.4          250   Intel
+Intel Core I9-12900K           589    5.2          241   Intel
+Intel Core 19 12900            489    5.1          202   Intel
+Intel Core I7-12700K           409    5            190   Intel
+Intel Core I7-12700            339    4.9          180   Intel
+Intel Core I5-12600K           289    4.9          150   Intel
+Intel Core I5-12500            212    4.6          117   Intel
+Intel Core I3-12300            143    4.4          89    Intel
+Intel Core I3-12100            122    4.3          89    Intel
+Ryzen Threadripper PRO 5995WX  6500   4.5          280   Amd
+Ryzen Threadripper PRO 5975WX  3300   4.5          280   Amd
+AMD Ryzen 9 5950X              799    4.9          105   Amd
+AMD Ryzen 9 5900X              549    4.8          105   Amd
+AMD Ryzen 7 5800X3D            449    4.5          105   Amd
+AMD Ryzen 7 5800X              449    4.7          105   Amd
+AMD Ryzen 7 5700X              299    4.6          65    Amd
+AMD Ryzen 5 5600X              299    4.6          65    Amd
+AMD Ryzen 5 5600               199    4.4          65    Amd
+AMD Ryzen 5 5500               159    4.2          65    Amd
