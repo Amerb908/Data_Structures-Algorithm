@@ -75,14 +75,14 @@ class CpuInventory:
     def create_inventory(self, cpu_file):
         with open(cpu_file) as file:
             for line in file:
-                parts = line.strip().split(', ')
+                cpu_data = line.strip().split(', ')
                 cpu = Cpu()
-                cpu.set_ID(int(parts[0]))
-                cpu.set_name(parts[1])
-                cpu.set_price(int(parts[2]))
-                cpu.set_maxclock(float(parts[3]))
-                cpu.set_TDP(int(parts[4]))
-                cpu.set_brand(parts[5])
+                cpu.set_ID(int(cpu_data[0]))
+                cpu.set_name(cpu_data[1])
+                cpu.set_price(int(cpu_data[2]))
+                cpu.set_maxclock(float(cpu_data[3]))
+                cpu.set_TDP(int(cpu_data[4]))
+                cpu.set_brand(cpu_data[5])
                 self.__list_cpu.append(cpu)
 
     def sort_cpu_by_benchmark(self):
