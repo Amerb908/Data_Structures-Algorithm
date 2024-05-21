@@ -53,7 +53,7 @@ class Interface:
                 brandR = cInventory.search_brand(BRD)
                 Interface.print_cpu_list(brandR)
             elif option == 5:
-                CPU_info = open("CPU_InfoALL.txt")
+                CPU_info = open("Data_Structures_Project/CPU_InfoALL.txt")
                 file_content = CPU_info.read()
                 print(file_content + "\n")
                 OF = option
